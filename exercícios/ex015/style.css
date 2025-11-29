@@ -1,0 +1,19 @@
+
+body {
+    background-color: rgb(255, 178, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(12, 209, 91);
+    background-color: lightblue;
+    }
+h2 {
+    color: darkred;
+}
+
+    p {
+        text-align: justify;
+    }
+

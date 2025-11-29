@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+
+        .aviso {
+            background-color: rgba(231, 231, 24, 0.644);
+            width: fit-content;
+
+        }
+
+        .aviso::before{
+            content:'⚠️ ';
+        }
+
+        .info {
+            background-color: rgba(7, 7, 241, 0.582);
+            width: fit-content;
+
+        }
+
+        .info::before {
+            content: 'ℹ️ ';
+        }
+
+        .sucesso {
+            background-color: rgba(6, 200, 248, 0.651);
+            width: fit-content;
+        }
+        .sucesso::before {
+            content:'✅ ';
+        }
+
+        
+
+    </style>
+
+<body>
+
+    <p class="aviso">Simbolo de aviso</p>
+    <p class="info">Simbolo de info</p>
+    <p class="sucesso">Simbolo de sucesso</p>
+
+</body>
+</html>
