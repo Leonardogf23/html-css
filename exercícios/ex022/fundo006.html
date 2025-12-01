@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 
     <style>
         body {
+
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size:contain ;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+            
+            background-size: cover;
             
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 10px;
+
+            /*shorthand - background
+                color > image > position > repeat > [size]
+                > attachment
+            */
         }
     </style>
 
@@ -30,7 +41,19 @@
 <body>
 
     <main>
-        <h1>Teste de Imagem de Fundo </h1>´
+        <h1>Teste de Imagem de Fundo </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex pariatur voluptas odit maxime deleniti amet ab suscipit! Facere enim voluptates, omnis fugit voluptas consequuntur ullam blanditiis soluta sed quibusdam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, eaque sit voluptas ipsum iusto provident facere? Quas rerum quia placeat deserunt corporis iusto aliquam quod. Ab eos error quae eaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quos vel repellendus amet eligendi similique, in nemo voluptate iste deserunt placeat accusamus quasi consequatur veniam. Aliquid deleniti alias harum sapiente!</p>
+                <h1>Teste de Imagem de Fundo </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex pariatur voluptas odit maxime deleniti amet ab suscipit! Facere enim voluptates, omnis fugit voluptas consequuntur ullam blanditiis soluta sed quibusdam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, eaque sit voluptas ipsum iusto provident facere? Quas rerum quia placeat deserunt corporis iusto aliquam quod. Ab eos error quae eaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quos vel repellendus amet eligendi similique, in nemo voluptate iste deserunt placeat accusamus quasi consequatur veniam. Aliquid deleniti alias harum sapiente!</p>
+                <h1>Teste de Imagem de Fundo </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex pariatur voluptas odit maxime deleniti amet ab suscipit! Facere enim voluptates, omnis fugit voluptas consequuntur ullam blanditiis soluta sed quibusdam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, eaque sit voluptas ipsum iusto provident facere? Quas rerum quia placeat deserunt corporis iusto aliquam quod. Ab eos error quae eaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quos vel repellendus amet eligendi similique, in nemo voluptate iste deserunt placeat accusamus quasi consequatur veniam. Aliquid deleniti alias harum sapiente!</p>
+                <h1>Teste de Imagem de Fundo </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex pariatur voluptas odit maxime deleniti amet ab suscipit! Facere enim voluptates, omnis fugit voluptas consequuntur ullam blanditiis soluta sed quibusdam.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, eaque sit voluptas ipsum iusto provident facere? Quas rerum quia placeat deserunt corporis iusto aliquam quod. Ab eos error quae eaque!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quos vel repellendus amet eligendi similique, in nemo voluptate iste deserunt placeat accusamus quasi consequatur veniam. Aliquid deleniti alias harum sapiente!</p>
