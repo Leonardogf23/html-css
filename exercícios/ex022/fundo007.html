@@ -13,51 +13,49 @@
             box-sizing: border-box;
         }
 
-        .container{
-            positoi
+        #container{
+            background-image: url(imagens/target001.png);
+            
+            background-size: 100% 100%;
+            position: relative;
             padding: 10px;
-            text-align: center;
-            background-color: lightgreen;
-            width: 90%;
-            max-width: 500px;
-            height: 300px;
-            margin: auto;
-            margin-top: 50px;
-            border: 2px dashed blue;
+            height: 500px;
+          
+            background-color: purple;
+    
         
         }
 
-        .conteudo {
-           
+        #conteudo {
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-100%, -%);
             
             
-            
-            background-color: rgb(238, 234, 18);
+
             
             
         }
 
         .conteudo > p {
-            text-align: justify;
+           
         }
         
         .conteudo > button {
-            color: white;
-            background-color: black;
-            margin-top: 10px;
+
         }
 
         .conteudo > button:hover{
-            color: black;
-            background-color: aquamarine;
+
 
         }
-
-        
-
-
-        
-
         
        
     </style>
@@ -65,11 +63,10 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="conteudo">
-            <h2>Caixa</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, eius minus eum pariatur nam nesciunt fugit minima itaque rem ut. Nulla inventore necessitatibus optio maxime ducimus quos, labore soluta hic.</p>
-            <button>Botão</button>
+    <div id="container">
+        <div id="conteudo">
+
+
         </div>
     </div>
     

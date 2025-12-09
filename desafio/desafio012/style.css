@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
     
 }
 
@@ -19,7 +20,7 @@
 html,body {
     min-height: 100vh;
     background-color:darkgrey;
-
+    font-family: var(--fonte1);
 }
 
 
@@ -30,12 +31,15 @@ header {
     text-align: center;
 
 
+
 }
 
 header > h1 {
+
     padding-top: 50px;
     font-variant: small-caps; /*transforma em letra maiuscula*/
-    
+    font-family: var(--fonte2);
+    font-size: 10vw;
     
    
 }
@@ -55,8 +59,9 @@ section {
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
-
-
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
+    
 
 
 }
@@ -64,17 +69,39 @@ section {
 section.normal{
     background-color: white;
     color: black;
+
+
 }
 
 
 section.imagem{
+    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.788);
     color: white;
+    background-position: right center;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+   
 }
 
 section.imagem > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.438);
-    width: 300px;
+    padding: 5px;
+    background-position: right center;
+ 
+}
+
+section#img01{
+    background-size: cover;
+    
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img02{
+    background-size: cover;
+    background-image: url(imagens/background002.jpg);
+
 }
 
 a:hover{
